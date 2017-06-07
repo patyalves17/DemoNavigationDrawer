@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alves.paty.demonavigationdrawer.fragments.FormularioFragments">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+
+        <EditText
+            android:id="@+id/etValor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/valor_2" />
+
+        <EditText
+            android:id="@+id/etValor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Valor2" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnSomar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="soma"
+                android:layout_weight="0.5"
+                android:text="+"
+                />
+            <Button
+                android:id="@+id/btnSubtrair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sub"
+                android:layout_weight="0.5"
+                android:text="-"/>
+            <Button
+                android:id="@+id/btnMultiplicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="multi"
+                android:layout_weight="0.5"
+                android:text="*"/>
+            <Button
+                android:id="@+id/btnDividir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="div"
+                android:layout_weight="0.5"
+                android:text="/"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Resultado" />
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

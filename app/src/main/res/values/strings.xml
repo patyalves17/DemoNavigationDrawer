@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoNavigationDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+
+</resources>
